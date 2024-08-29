@@ -290,7 +290,7 @@ MonoBehaviour:
   m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
-  m_FacingDirection: 1
+  m_FacingDirection: 2
   m_RenderMode: 0
 --- !u!81 &188876185
 AudioListener:
@@ -548,6 +548,8 @@ GameObject:
   - component: {fileID: 1053231377}
   - component: {fileID: 1053231376}
   - component: {fileID: 1053231378}
+  - component: {fileID: 1053231379}
+  - component: {fileID: 1053231380}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -601,6 +603,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PointCloudPrefab: {fileID: 378193477401568814, guid: 480964ab482884c73a390531f9663a61, type: 3}
+--- !u!114 &1053231379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053231375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 5915374130215141115, guid: 52a7e562288434246ae9aa09563ce701, type: 3}
+  m_DetectionMode: -1
+--- !u!114 &1053231380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053231375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FacePrefab: {fileID: 5566262172299644271, guid: 6876349b5021b4fbab9e27a637543e08, type: 3}
+  m_MaximumFaceCount: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
